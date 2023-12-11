@@ -189,5 +189,25 @@ int main(){
 	cout << "  |                                          |                 |               |\n";
 	cout << "  +----------------------------------------------------------------------------+\n";
 
+
+
+
+
+
+
+
+	cout<<"Uso: Figuras_Planas.exe ACCION [VARIABLES]\n";
+	cout << "     Calculos de perímetro y área de Figuras Planas.\n";
+	cout << "     Donde:\n";
+	cout << "            ACCION:  \n";
+	cout << "                     ayuda         | Información sobre el usa del programa\n\n";
+	cout<<  "                     triangulo     | VARIABLES: a b c h \n";
+	cout << "                     paralelogramo | VARIABLES: a b h \n";
+	cout << "                     rectangulo    | VARIABLES: a b\n";
+	cout << "                     cuadrado      | VARIABLES: a  \n";
+	cout << "                     rombo         | VARIABLES: a d D  \n";
+	cout << "                     cometa        | VARIABLES: a b d D \n";
+	cout << "                     trapecio      | VARIABLES: a b c h B \n";
+	cout << "                     circulo       | VARIABLES: r    \n";
 }
 
